@@ -4,13 +4,12 @@ public class Position {//posição
 	private int row;//linha
 	private int column;//coluna
 	
-	public Position(int row, int column) {
-		
+	public Position(int row, int column) {//construtor 
 		this.row = row;
 		this.column = column;
 	}
 
-	public int getRow() {
+	public int getRow() {//permite o acesso de row e column
 		return row;
 	}
 
@@ -30,8 +29,4 @@ public class Position {//posição
 	public String toString() {
 		return row+","+column;
 	}
-	
-	
-	
-
 }
